@@ -1,5 +1,5 @@
-import { Thumb } from "./thumb.tsx";
-import { Robot } from "../types.ts";
+import { Thumb } from "./thumb";
+import { Robot } from "../types";
 
 // interface CardProps {
 //   country: string;

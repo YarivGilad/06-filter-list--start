@@ -1,5 +1,5 @@
-import { Card } from "./card.tsx";
-import { Robot } from "../types.ts";
+import { Card } from "./card";
+import { Robot } from "../types";
 
 interface ListProps {
   listData: Robot[];
@@ -10,10 +10,10 @@ export function List({ listData }: ListProps) {
     <div className="cards-list">
       <ul>
         {listData.map((item) => (
-            <li className="card-item" key={item.id}>
-              <Card {...item} />
-            </li>
-          ))}
+          <li className="card-item" key={item.id}>
+            <Card {...item} />
+          </li>
+        ))}
       </ul>
     </div>
   );
