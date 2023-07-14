@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { List } from "./list.tsx";
-import { Robot } from "../types.ts";
+import { List } from "./list";
+import { Robot } from "../types";
 
 export function App() {
   const [robotsList, setRobotsList] = useState<Robot[]>([]);
